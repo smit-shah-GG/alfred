@@ -1,0 +1,17 @@
+# Development test folders
+dev_folders/
+
+*.pyc
+__pycache__/
+.env
+.env.local
+venv/
+env/
+.vscode/
+.idea/
+*.log
+.DS_Store
+data/cache/*
+data/uploads/*
+!data/cache/.gitkeep
+!data/uploads/.gitkeep
