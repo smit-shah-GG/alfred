@@ -1,0 +1,46 @@
+# Alfred AI File Butler - Requirements
+
+# Core Python utilities (these are usually built-in, but listed for clarity)
+pathlib2>=2.3.7  # Backport for older Python versions if needed
+
+# Google AI/ML
+google-generativeai>=0.8.0  # For Gemini API
+google-cloud-storage>=2.10.0  # For GCS (when we add cloud features)
+
+# File type detection and handling
+python-magic>=0.4.27  # Better file type detection
+Pillow>=10.0.0  # Image processing
+PyPDF2>=3.0.0  # PDF reading
+python-docx>=0.8.11  # Word document reading
+openpyxl>=3.1.2  # Excel file reading
+
+# Web UI
+streamlit>=1.40.0  # Main UI framework
+streamlit-extras>=0.4.0  # Additional UI components
+
+# Background service and system tray
+watchdog>=3.0.0  # File system monitoring
+pystray>=0.19.5  # System tray icon (cross-platform)
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0  # Code formatting
+flake8>=6.0.0  # Linting
+mypy>=1.5.0  # Type checking
+
+# Utilities
+python-dotenv>=1.0.0  # Environment variable management
+pydantic>=2.0.0  # Data validation and settings
+rich>=13.5.0  # Beautiful terminal output
+click>=8.1.0  # CLI framework
+
+# Async support
+aiofiles>=23.0.0  # Async file operations
+asyncio>=3.4.3  # Built-in but listing for clarity
+
+# Optional: For future features
+# fastapi>=0.100.0  # API framework
+# uvicorn>=0.23.0  # ASGI server
+# redis>=5.0.0  # Caching
+# sqlalchemy>=2.0.0  # Database ORM
